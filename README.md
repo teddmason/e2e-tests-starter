@@ -40,9 +40,7 @@ Need environment variables for, BS user and key:
 `export BS_USER=
 export BS_KEY=`
 
-Browserstack tunnel then needs setting up, either download the latst binary from https://www.browserstack.com/automate/node#firefox-profile ctrl-f for "Setting up local testing"
-
-or go to /bin and run `./BrowserStackLocal $BS_KEY`
+Browserstack tunnel then needs setting up, either download the latest binary [from here](https://www.browserstack.com/automate/node#setting-local-tunnel) and go to /bin and run `./BrowserStackLocal $BS_KEY`
 
 With this running in a terminal you'll then be able to run tests against your localhost or a private domain ie dev/test
 
