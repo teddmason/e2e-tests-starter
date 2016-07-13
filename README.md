@@ -2,8 +2,6 @@
 
 ## Starter project for stand-alone nightwatch e2e tests
 
-Note that the drivers in the /bin directory will need to be updated when cloning.
-
 The tests are set up using [page objects](http://nightwatchjs.org/guide#page-objects) within [pages](./pages/).
 
 #### Seperation of concerns is as follows:
