@@ -40,7 +40,7 @@ Need environment variables for, BS user and key:
 `export BS_USER=
 export BS_KEY=`
 
-Browserstack tunnel then needs setting up, either download the latest binary [from here](https://www.browserstack.com/automate/node#setting-local-tunnel) and go to /bin and run `./BrowserStackLocal $BS_KEY`
+Browserstack tunnel then needs setting up, download the latest binary [from here](https://www.browserstack.com/automate/node#setting-local-tunnel) and run `./BrowserStackLocal $BS_KEY`
 
 With this running in a terminal you'll then be able to run tests against your localhost or a private domain ie dev/test
 
@@ -53,7 +53,7 @@ In your environment variable location add, populated with the saucelabs connecti
 `export SAUCE_USERNAME=
 export SAUCE_ACCESS_KEY=`
 
-If you are wanting to test your localhost using sauce labs then a tunnel will need to be created for the remote to access your local.  This is done through Sauce Connect.  See https://wiki.saucelabs.com/display/DOCS/Setting+Up+Sauce+Connect
+If you are wanting to test your localhost using sauce labs then a tunnel will need to be created for the remote to access your local.  This is done through Sauce Connect. Download the appropriate binary [from here](https://wiki.saucelabs.com/display/DOCS/Setting+Up+Sauce+Connect)
 
 In the terminal run:
 
